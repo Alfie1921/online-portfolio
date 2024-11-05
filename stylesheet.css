@@ -70,6 +70,7 @@ a {
 .heroBox .heroText {
     color: #524F81;
     font-size: 18px;
+    text-align: center;
 }
 
 
@@ -79,7 +80,6 @@ a {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
     background-color: #0F0616;
 }
 
@@ -123,6 +123,8 @@ img {
 
 .projectText {
     color: #524F81;
+    max-width: 300px;
+    text-align: center;
 }
 
 .quote {
@@ -167,7 +169,7 @@ img {
     align-items: center;
 }
 
-.summary .summaryBox .summaryHead {
+.summary .summaryBox .summaryTitle {
     display: flex;
     font-size: 36px;
     color: #524F81;
@@ -179,8 +181,16 @@ img {
     display: flex;
     font-size: 18px;
     color: #524F81;
+    text-align: center;
+    max-width: 500px;
+}
+
+.summary .summaryBox .summaryHead {
+    color: #524F81;
+    font-size: 15px;
 }
 
 .footer {
     background-color: #0F0616;
+    border: solid black 1px;
 }
